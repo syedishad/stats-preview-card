@@ -1,0 +1,51 @@
+@media screen and (max-width:858px) {
+    html {
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    body {
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 400px;
+
+    }
+
+    .img-card {
+        border-radius: 10px 10px 0 0;
+    }
+
+    img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .followers {
+        display: block;
+    }
+
+    h2 {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .container {
+        width: 360px;
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        width: 340px;
+        justify-content: center;
+    }
+}
